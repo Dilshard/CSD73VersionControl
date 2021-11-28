@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+        String stno = "ST001";
         int mk1 = 45;
         int mk2 = 88;
         int mk3 = 99;
@@ -15,7 +16,7 @@ public class Main {
             grd = "Fail";
         }
 
-
+        System.out.println("Student No : "+stno);
         System.out.println("Marks 01 : "+mk1);
         System.out.println("Marks 02 : "+mk2);
         System.out.println("Marks 03 : "+mk3);
